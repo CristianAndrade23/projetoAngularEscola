@@ -1,0 +1,10 @@
+#bodyheader{
+    position: relative;
+    background: rgb(2, 24, 83);
+}
+
+#botoesrotas{
+    position: absolute;
+    left: 10cm;
+    background: rgb(2, 24, 83);
+}

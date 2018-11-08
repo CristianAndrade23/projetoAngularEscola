@@ -1,0 +1,24 @@
+#listaAlunos{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 600px;
+    height: 500px;
+    border-right: solid;
+}
+#blocoAluno{
+    position: relative;
+    float: left;
+    padding: 0.5cm;
+    margin: 0.3cm;
+    background: rgb(2, 24, 83);
+    border-radius: 10px;
+    color:white;
+}
+#editarAluno{
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    width: 600px;
+    height: 500px;
+}

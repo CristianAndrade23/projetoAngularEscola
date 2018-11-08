@@ -1,0 +1,7 @@
+<div id="editar">
+    <h1>Dados do Aluno</h1><hr>
+    Nome: <input style="position: absolute; right: 15px" type="text" [(ngModel)]="alunoEditado.name"><br><br>
+    Idade: <input style="position: absolute; right: 15px" type="number" [(ngModel)]="alunoEditado.age"><br><br>
+    Curso: <input style="position: absolute; right: 15px" type="text" [(ngModel)]="alunoEditado.curso"><br><br>
+    <button (click)="atualizarAluno(aluno)" class="btn btn-dark btn-block" type="button">Editar Aluno</button>
+</div>

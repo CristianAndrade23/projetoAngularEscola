@@ -1,0 +1,17 @@
+<div>
+<app-header></app-header>
+</div>
+
+<div id="listaAlunos">
+<div id="blocoAluno" *ngFor="let aluno of alunos">  
+        {{aluno.photo}}
+        Aluno: {{aluno.name}}<br>
+        Idade: {{aluno.age}}<br>
+        Genero: {{aluno.genre}}<br>
+        <button style="margin:0.1cm" class="btn btn-success btn-sm" [routerLink]="['/infoaluno']">Editar</button>
+        <button style="margin:0.1cm" class="btn btn-danger btn-sm" (click)="excluirAluno(aluno.id)">Excluir</button>
+</div>
+</div>
+<div id="editarAluno">
+<router-outlet></router-outlet>
+</div>
